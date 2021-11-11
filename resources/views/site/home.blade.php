@@ -45,7 +45,7 @@
                             <a class="nav-link" href="/games">Games</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="/streaming">Hardware</a>
+                        <a class="nav-link" href="/hardware">Hardwares</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="/sobre">Sobre</a>

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
@@ -45,7 +45,7 @@
                             <a class="nav-link" href="/games">Games</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="/streaming">Hardware</a>
+                        <a class="nav-link" href="/hardware">Hardwares</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link active" href="#">Sobre</a>
@@ -78,18 +78,18 @@
     <div class="container marketing">
         <div class="row">
             <div class="col-lg-6">
-                    <form action="teste2.php" method="POST">
+                    <form action="salvar()" method="POST">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">E-mail de contato:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <input type=$email class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                         </div>
                         <div class="mb-6">
                             <label for="exampleFormControlTextarea1" class="form-label">Comentário:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea type=$comment class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         </br>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+                            <button action=salvar() class="btn btn-primary mb-3">Confirm identity</button>
                         </div>
                     </form>
                 </div>
