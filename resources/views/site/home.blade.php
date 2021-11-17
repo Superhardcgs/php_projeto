@@ -53,7 +53,7 @@
                     </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -70,35 +70,35 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="https://i2.wp.com/manualdosgames.com/wp-content/uploads/2020/12/STEAMAWARDS2020_SOC_MEDIA.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></img>
 
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <!-- <h1 style="text-shadow: #000 2px 3px 2px;" >testetestetestetestetestetestetesteteste</h1> -->
+            <p style="text-shadow: #000 2px 3px 2px;" fill="#000">teste</p>
+            <p><a class="btn btn-lg btn-warning" href="https://store.steampowered.com/steamawards/" target="_blank">Conferir</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></svg>
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" target="_blank" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="https://br.atsit.in/wp-content/uploads/2021/06/amd-lanca-radeon-software-adrenalin-21-6-2-driver.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1></h1>
             <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-danger" target="_blank" href="https://br.atsit.in/archives/72931">Saiba mais</a></p>
           </div>
         </div>
       </div>
@@ -123,25 +123,25 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img class="bd-placeholder-img rounded-circle" width="160" height="140" src="https://loga.net.br/wp-content/uploads/2020/07/log_j8326_r40_plataformas-streamings_blog.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Plataformas de Streaming</h2>
         <p>Descrição serviço 1</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#">Ver mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img class="bd-placeholder-img rounded-circle" width="160" height="140" src="https://www.oficinadanet.com.br/imagens/post/27221/750xNxgeneros-de-games.jpg.pagespeed.ic.fe538565b7.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Games</h2>
         <p>Descrição serviço 2</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/games">Ver mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img class="bd-placeholder-img rounded-circle" width="160" height="140" src="https://www.epoc.com.br/wp-content/uploads/2016/11/Hardware_01.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Hardwares</h2>
         <p>Descrição serviço 3</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#">Ver mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -152,11 +152,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Steam. <span class="text-muted">A dominação só cresce...</span></h2>
-        <p class="lead">Descrição rápida de algo da steam</p>
+        <h2 class="featurette-heading">Amazon. <span class="text-muted">A dominação só cresce...</span></h2>
+        <p class="lead">Amazon</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://blog.betrybe.com/wp-content/uploads/2020/12/Amazon_PNG13.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>
