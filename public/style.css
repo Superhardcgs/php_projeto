@@ -38,6 +38,11 @@ body {
     margin-top: 150px;
     margin-left: 150px;
   }
+
+  .centerCore{
+    margin-top: 150px;
+    border-top: 150px;
+  }
   
   /* MARKETING CONTENT
   -------------------------------------------------- */

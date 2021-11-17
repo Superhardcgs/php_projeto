@@ -20,7 +20,7 @@
 <link rel="icon" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo" sizes="32x32" type="image/png">
 <link rel="icon" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo" sizes="16x16" type="image/png">
 <link rel="manifest" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo">
-<link rel="mask-icon" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo">
+<link rel="mask-icon" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo"  color="#7952b3">
 <link rel="icon" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo">
 <meta name="theme-color" content="#7952b3">
 
