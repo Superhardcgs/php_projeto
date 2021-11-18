@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('site/home');
 });
 
-Route::get('/contato', function(){
-    return view('site/contato');
-});
-
 Route::get('/sobre', function(){
     return view('site/sobre');
 });

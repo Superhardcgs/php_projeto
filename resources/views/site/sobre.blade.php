@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Sobre · Superhardware Info</title>
     <style>
 
       .bd-placeholder-img {
@@ -67,7 +67,7 @@
             <h2 class="featurette-heading">Superhardware</br><span class="text-muted">Info</span></h2>
             <p class="lead">A Superhardware informática é um site criado por um estudante de Sistemas de Informação, da UNIPAM - Patos de Minas.</p>
             <p class="lead">Fã de hardware, jogos e tecnologia no geral.</p>
-            <p class="lead">Criador de conteúdo e dono de um canal no YouTube.</p>
+            <p class="lead">Criador de conteúdo e dono do canal Superhardware no YouTube.</p>
         </div>
         <div class="col-md-5">
             <img class="centerImg" width="150" height="150" src="https://lh3.googleusercontent.com/ogw/ADea4I5G9dSjiZulTZ8x0xXD26x-LnF_92Q3_bS_WlsytQ=s83-c-mo" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
@@ -84,12 +84,12 @@
                             <input type=$email class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                         </div>
                         <div class="mb-6">
-                            <label for="exampleFormControlTextarea1" class="form-label">Comentário:</label>
-                            <textarea type=$comment class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="exampleFormControlTextarea1" class="form-label">Deixe um comentário ou sugestão:</label>
+                            <textarea type=$comment class="form-control" placeholder="Eu acho que..." id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         </br>
                         <div class="col-auto">
-                            <button action=salvar() class="btn btn-primary mb-3">Confirm identity</button>
+                            <button action=salvar() class="btn btn-primary mb-3">Enviar</button>
                         </div>
                     </form>
                 </div>
