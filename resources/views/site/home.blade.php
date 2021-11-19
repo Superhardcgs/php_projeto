@@ -74,20 +74,20 @@
 
         <div class="container">
           <div class="carousel-caption text-start">
-            <!-- <h1 style="text-shadow: #000 2px 3px 2px;" >testetestetestetestetestetestetesteteste</h1> -->
-            <p style="text-shadow: #000 2px 3px 2px;" fill="#000">teste</p>
+            <!-- <h1 style="text-shadow: #000 2px 3px 2px;" >testetestetestetestetestetestetesteteste</h1>
+            <p style="text-shadow: #000 2px 3px 2px;" fill="#000">teste</p> -->
             <p><a class="btn btn-lg btn-warning" href="https://store.steampowered.com/steamawards/" target="_blank">Conferir</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="https://meups.com.br/wp-content/uploads/2021/10/Jogos-de-Fevereiro-de-2022-Elden-Ring-Horizon-e-Dying-Light-2.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></img>
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" target="_blank" href="#">Learn more</a></p>
+            <!-- <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p> -->
+            <p><a class="btn btn-lg btn-success" target="_blank" href="#">Ver Lançamentos</a></p>
           </div>
         </div>
       </div>
@@ -96,8 +96,8 @@
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1></h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <!-- <h1></h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p> -->
             <p><a class="btn btn-lg btn-danger" target="_blank" href="https://br.atsit.in/archives/72931">Saiba mais</a></p>
           </div>
         </div>
@@ -127,7 +127,7 @@
 
         <h2>Plataformas de Streaming</h2>
         <p>Descrição serviço 1</p>
-        <p><a class="btn btn-secondary" href="#">Ver mais &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/streaming">Ver mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" width="160" height="140" src="https://www.oficinadanet.com.br/imagens/post/27221/750xNxgeneros-de-games.jpg.pagespeed.ic.fe538565b7.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
@@ -141,7 +141,7 @@
 
         <h2>Hardwares</h2>
         <p>Descrição serviço 3</p>
-        <p><a class="btn btn-secondary" href="#">Ver mais &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/hardware">Ver mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
