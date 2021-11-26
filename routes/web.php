@@ -41,6 +41,6 @@ Route::get('/loginAdmin', function(){
     return view('site/loginAdmin');
 });
 
-Route::get('/comments', function(){
-    return view('site/autenticado/comments');
+Route::get('/register', function(){
+    return view('auth/register');
 });
