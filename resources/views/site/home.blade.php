@@ -28,35 +28,56 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <div class="container-fluid">
+              <div class="container-fluid">
                 <a class="navbar-brand" href="/">Superhardware Info</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/streaming">Streaming</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/games">Games</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="/hardware">Hardwares</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="/sobre">Sobre</a>
-                        </li>
-                    </ul>
-                <form class="d-flex">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/streaming">Streaming</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/games">Games</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/hardware">Hardwares</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/sobre">Sobre</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
+                    <button class="btn btn-outline-warning" style="margin-right:30px;" type="submit">Search</button>
+                  </form>
+                  <div class="btn btn-outline-success" style="border-radius:60px;padding:0px" id="navbarCollapse">
+                  <!-- btn btn-outline-success -->
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                      <li class="nav-item">
+                        <a class="nav-link" method="POST" href="">Login</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- @if (Route::has('login'))
+                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    @auth
+                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                    @else
+                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif -->
+              </div>
         </nav>
     </header>
 
@@ -153,7 +174,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Amazon. <span class="text-muted">A dominação só cresce...</span></h2>
-        <p class="lead">Amazon</p>
+        <p class="lead">A gigante de vendas têm ampliado seus horizontes para todos os mercados possíveis, incluindo Streaming de filmes e games.</p>
       </div>
       <div class="col-md-5">
         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://blog.betrybe.com/wp-content/uploads/2020/12/Amazon_PNG13.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
@@ -165,11 +186,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">World of Warcraft. <span class="text-muted">Um dos maiores MMORPG da atualidade</span></h2>
-        <p class="lead">Descrição rápida sobre o game</p>
+        <h2 class="featurette-heading">New World. <span class="text-muted">MMORPG que promete muito!</span></h2>
+        <p class="lead">O jogo New World tem se destacado muito no mundo dos games por sua jogabilidade e seus incríveis gráficos!</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://www.pcgamesn.com/wp-content/uploads/2021/09/new-world-servers-list-1-900x506.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
 
       </div>
     </div>
@@ -178,11 +199,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Intel Core 11th Generation <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Intel se prepara para o lançamento da nova plataforma de processadores</p>
+        <h2 class="featurette-heading">AMD<span class="text-muted"> Processadores e GPUS</span></h2>
+        <p class="lead">A gigante dos hardwares têm se desenvolvido muito nos últimos anos</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://t2.tudocdn.net/551944?w=646&h=284" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
 
       </div>
     </div>
