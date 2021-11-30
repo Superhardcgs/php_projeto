@@ -86,14 +86,10 @@
   <div class="px-4 py-5 my-5 text-center">
   <h1 class="display-5 fw-bold">Plataformas Streaming</h1>
     </br>
-    <img class="d-block mx-auto mb-4" src="https://files.tecnoblog.net/wp-content/uploads/2018/12/steam-logo-700x394.jpg" alt="" width="640" height="360">
-    <h1 class="display-5 fw-bold">N</h1>
+    <img class="d-block mx-auto mb-4" src="https://www.infomoney.com.br/wp-content/uploads/2019/11/shutterstock_557073697.jpg?fit=1280%2C848&quality=50&strip=all" alt="" width="640" height="360">
+    <h1 class="display-5 fw-bold">O que é Streaming?</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
+      <p class="lead mb-4">Streaming é o nome dado à tecnologia que é capaz de transmitir dados através da internet sem a necessidade de baixar o conteúdo em um dispositivo. Os arquivos transmitidos com mais frequência envolvem imagem e áudio, sendo vídeos curtos, longos e músicas, porém, as opções são vastas, podendo incluir até mesmo textos e apresentações de slides.</p>
     </div>
   </div>
 
@@ -105,11 +101,10 @@
         <img src="https://files.tecnoblog.net/wp-content/uploads/2018/12/steam-logo-700x394.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <h1 class="display-5 fw-bold lh-1 mb-3">Steam</h1>
+        <p class="lead">O Steam é uma plataforma de distribuição de jogos digitais para computadores (Windows, macOS e Linux). Ou, trocando em miúdos, uma loja digital. Foi uma das primeiras de seu gênero a ser lançada e permite que consumidores comprem ou ativem jogos dentro do serviço. Possui um programa cliente, que deve ser instalado no computador, para que os jogos possam ser executados, mantendo tudo atualizado.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <a href="" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Ir para</button></a>
         </div>
       </div>
     </div>
@@ -120,15 +115,15 @@
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive right-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <h1 class="display-5 fw-bold lh-1 mb-3">Netflix vs Amazon Prime Video</h1>
+        <p class="lead">Duas gigantes do Streaming que tem brigado pelo mercado, tanto em preço, quanto em qualidade e acrescentando cada vez mais conteúdos para os seus assinantes. Confira cada uma delas abaixo:</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjGgdCjvsD0AhWspJUCHfKMBQsQFnoECAgQAQ&url=https%3A%2F%2Fwww.netflix.com%2Fbr%2F&usg=AOvVaw3I2XahEA2BORE2wOBauk9w" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Netflix</button></a>
+        <a href="https://www.google.com/aclk?sa=L&ai=DChcSEwjmjJ-XvsD0AhX6C60GHeZ3D-sYABAAGgJwdg&ae=2&sig=AOD64_3fSyREl7yNZOoevDaOcYp3pNnoGA&q&adurl&ved=2ahUKEwjZzpKXvsD0AhVRqpUCHVgdAOEQ0Qx6BAgDEAE" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Amazon</button></a>
         </div>
       </div>
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://files.tecnoblog.net/wp-content/uploads/2018/12/steam-logo-700x394.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="https://files.tecnoblog.net/wp-content/uploads/2016/12/amazon-prime-video-ou-netflix.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
     </div>
   </div>
@@ -141,7 +136,7 @@
   
 <footer class="container">
   <p class="float-end"><a href="#">Back to top</a></p>
-  <p>&copy; 2017–2021 Superhardware, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <p>&copy; 2017-2021 Superhardware, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 </main> 
 </body>
